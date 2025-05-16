@@ -1,113 +1,319 @@
-Library Management System
-Project Overview
+# Library Management System
+
+<div align="center">
+  <img src="/api/placeholder/400/200" alt="Library Management System" />
+  <p><em>A Qt-based C++ Library Management Application</em></p>
+</div>
+
+## Project Overview
 The Library Management System is a C++ application built with Qt that provides a comprehensive solution for managing library resources. This console-based application allows librarians and users to manage books and magazines, including adding new items, searching the catalog, and handling the borrowing and returning process.
 
-Features
-Item Management: Add books and magazines to the library catalog
-Search Functionality: Search for items by title, author, or ID
-Borrowing System: Track the availability of items and manage the borrowing/returning process
-Data Persistence: Save library data to files for persistent storage across sessions
-Console Interface: User-friendly menu-driven interface for all operations
-System Architecture
-Class Structure
-The system follows Object-Oriented Programming principles with the following class hierarchy:
+## Features
 
-LibraryItem (Abstract Base Class)
-Contains common properties: title, author, ID, borrowing status
-Defines interface methods for all library items
-Book (Derived Class)
-Inherits from LibraryItem
-Adds genre-specific functionality
-Magazine (Derived Class)
-Inherits from LibraryItem
-Adds issue number-specific functionality
-LibraryManager
-Manages the collection of library items
-Handles file operations and search functionality
-Setup Instructions
-Prerequisites
-Qt Creator (version 5.12 or higher recommended)
-C++ compiler with C++11 support
-Qt development libraries
-Step 1: Install Qt Creator
-Download Qt Creator from the official Qt website
-Follow the installation instructions for your operating system
-Make sure to include the Qt development libraries during installation
-Step 2: Set Up the Project
-Open Qt Creator
-Go to File > New File or Project
-Select "Qt Console Application" and click "Choose..."
-Name your project (e.g., "LibraryManagementSystem") and set the location
-Follow the wizard, selecting your preferred kit
-Click "Finish" to create the project
-Step 3: Add Source Files
-Right-click your project in the Projects view
-Select "Add New..." > "C++ Class" to add each class
-Create the following files:
-libraryitem.h and libraryitem.cpp
-book.h and book.cpp
-magazine.h and magazine.cpp
-librarymanager.h and librarymanager.cpp
-Replace main.cpp with the provided code
-Step 4: Copy Code
-Copy the code from each provided file into the respective files in your project
-Make sure to use the exact file names as shown in the code
-Step 5: Configure Data Directory
-Modify the data file path in main.cpp:
-cpp
+- **📚 Item Management**: Add books and magazines to the library catalog
+- **🔍 Search Functionality**: Search for items by title, author, or ID
+- **🔄 Borrowing System**: Track the availability of items and manage the borrowing/returning process
+- **💾 Data Persistence**: Save library data to files for persistent storage across sessions
+- **🖥️ Console Interface**: User-friendly menu-driven interface for all operations
+
+## System Architecture
+
+### Class Structure
+
+```
+┌───────────────────┐
+│   LibraryItem     │
+│   (Base Class)    │
+└─────────┬─────────┘
+          │
+          ├─────────────────┐
+          │                 │
+┌─────────▼──────┐  ┌───────▼───────┐
+│     Book       │  │    Magazine   │
+│ (Derived Class)│  │(Derived Class)│
+└────────────────┘  └───────────────┘
+          │                 │
+          └────────┬────────┘
+                   │
+          ┌────────▼────────┐
+          │ LibraryManager  │
+          └─────────────────┘
+```
+
+## Setup Instructions
+
+### Prerequisites
+
+<table>
+  <tr>
+    <td><b>Software</b></td>
+    <td><b>Version</b></td>
+    <td><b>Purpose</b></td>
+  </tr>
+  <tr>
+    <td>Qt Creator</td>
+    <td>5.12 or higher</td>
+    <td>IDE for development</td>
+  </tr>
+  <tr>
+    <td>C++ Compiler</td>
+    <td>C++11 support</td>
+    <td>Code compilation</td>
+  </tr>
+  <tr>
+    <td>Qt Libraries</td>
+    <td>5.12 or higher</td>
+    <td>Required dependencies</td>
+  </tr>
+</table>
+
+### Step 1: Install Qt Creator
+
+1. Download Qt Creator from the [official Qt website](https://www.qt.io/download)
+2. Follow the installation instructions for your operating system
+3. Make sure to include the Qt development libraries during installation
+
+### Step 2: Set Up the Project
+
+<details>
+  <summary>Expand for detailed steps</summary>
+  
+  1. Open Qt Creator
+  2. Go to File > New File or Project
+  3. Select "Qt Console Application" and click "Choose..."
+  4. Name your project (e.g., "LibraryManagementSystem") and set the location
+  5. Follow the wizard, selecting your preferred kit
+  6. Click "Finish" to create the project
+</details>
+
+### Step 3: Add Source Files
+
+<table>
+  <tr>
+    <td><b>File Name</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>libraryitem.h</td>
+    <td>Header for base class</td>
+  </tr>
+  <tr>
+    <td>libraryitem.cpp</td>
+    <td>Implementation of base class</td>
+  </tr>
+  <tr>
+    <td>book.h</td>
+    <td>Header for Book class</td>
+  </tr>
+  <tr>
+    <td>book.cpp</td>
+    <td>Implementation of Book class</td>
+  </tr>
+  <tr>
+    <td>magazine.h</td>
+    <td>Header for Magazine class</td>
+  </tr>
+  <tr>
+    <td>magazine.cpp</td>
+    <td>Implementation of Magazine class</td>
+  </tr>
+  <tr>
+    <td>librarymanager.h</td>
+    <td>Header for Library Manager</td>
+  </tr>
+  <tr>
+    <td>librarymanager.cpp</td>
+    <td>Implementation of Library Manager</td>
+  </tr>
+  <tr>
+    <td>main.cpp</td>
+    <td>Main application entry point</td>
+  </tr>
+</table>
+
+### Step 4: Copy Code
+
+```mermaid
+graph TD
+    A[Create New Files] --> B[Copy Provided Code into Each File]
+    B --> C{Verify All Files}
+    C -->|Missing Content| B
+    C -->|Complete| D[Save All Files]
+```
+
+Make sure to copy the code from each provided file into the respective files in your project.
+
+### Step 5: Configure Data Directory
+
+⚠️ **Important**: Fix the hardcoded file path in main.cpp:
+
+```cpp
+// Change this:
+QString sDataFilePath = QDir::current().absoluteFilePath("C:\\data\\library_data.txt");
+
+// To this (preferred, platform-independent):
 QString sDataFilePath = QDir::current().absoluteFilePath("library_data.txt");
-Or create a specific directory:
-cpp
-QDir().mkpath("C:/data");
-QString sDataFilePath = "C:/data/library_data.txt";
-Step 6: Build and Run
-Click "Build" > "Build Project" (or press Ctrl+B)
-After successful build, click "Build" > "Run" (or press Ctrl+R)
-Usage Guide
-Main Menu Options
-When you start the application, you'll see the following menu options:
+```
 
-Add a new book: Add a book to the library by entering title, author, and genre
-Add a new magazine: Add a magazine by entering title, publisher, and issue number
-Search by title: Find items by their title (partial matches work)
-Search by author: Find items by their author/publisher name
-Search by ID: Look up a specific item by its unique ID
-Borrow an item: Mark an item as borrowed by specifying its ID
-Return an item: Process a return by specifying the item's ID
-Display all items: Show all items in the library catalog
-Exit: Close the application
-Data Storage
-The system saves all library data to a text file in a fixed-width format. The default location is specified in the main.cpp file. The file contains the following information for each item:
+Alternatively, create the directory structure:
 
-Item ID
-Type (Book or Magazine)
-Title
-Author/Publisher
-Availability status
-Additional attributes (Genre for books, Issue Number for magazines)
-Troubleshooting
-Common Issues
-File not found errors:
-Check if the specified directory exists
-Ensure write permissions for the data file directory
-Try using an absolute path
-Build errors:
-Make sure Qt libraries are properly installed
-Check that all files are correctly added to the project
-Verify that the code is copied correctly without missing sections
-Runtime errors:
-Check the regular expression in LibraryManager::loadData() if you have issues with magazine parsing
-Extending the System
-To extend this system, consider:
+```cpp
+// Create directory if it doesn't exist:
+QDir().mkpath("data");
+QString sDataFilePath = QDir::current().absoluteFilePath("data/library_data.txt");
+```
 
-Adding more item types (e.g., DVDs, Journals)
-Implementing user accounts and authentication
-Adding due dates and fine calculation for late returns
-Creating a graphical user interface using Qt widgets
-Adding statistical reporting features
-Credits
+### Step 6: Build and Run
+
+1. Click "Build" > "Build Project" (or press <kbd>Ctrl</kbd>+<kbd>B</kbd>)
+2. After successful build, click "Build" > "Run" (or press <kbd>Ctrl</kbd>+<kbd>R</kbd>)
+
+## Usage Guide
+
+### Main Menu Options
+
+```
+Library Management System
+-------------------------
+1. Add a new book
+2. Add a new magazine
+3. Search by title
+4. Search by author
+5. Search by ID
+6. Borrow an item
+7. Return an item
+8. Display all items
+0. Exit
+-------------------------
+Enter your choice:
+```
+
+### Workflow Examples
+
+<details>
+  <summary><b>Adding a New Book</b></summary>
+  
+  1. Select option `1` from the main menu
+  2. Enter the book title when prompted
+  3. Enter the author's name
+  4. Enter the book genre
+  5. The system will confirm the book has been added
+</details>
+
+<details>
+  <summary><b>Borrowing an Item</b></summary>
+  
+  1. Find the item ID (using search or display all)
+  2. Select option `6` from the main menu
+  3. Enter the ID of the item to borrow
+  4. The system will confirm if borrowing was successful or notify if the item is already borrowed
+</details>
+
+<details>
+  <summary><b>Searching the Catalog</b></summary>
+  
+  1. Choose a search option (`3`, `4`, or `5`)
+  2. Enter the search term as prompted
+  3. View the list of matching items
+  4. Press Enter to return to the main menu
+</details>
+
+### Data Storage Format
+
+The library data is stored in a fixed-width text format:
+
+```
+ID    TYPE       TITLE                         AUTHOR                    AVAILABILITY       ISSUE/GENRE
+1     Book       Programming in C++            Bjarne Stroustrup         Available          Computer Science
+2     Magazine   National Geographic           Nat Geo Society           Rented             142
+3     Book       The Lord of the Rings         J.R.R. Tolkien            Available          Fantasy
+```
+
+Field structure:
+- Item ID (5 characters)
+- Type (10 characters)
+- Title (30 characters)
+- Author/Publisher (25 characters)
+- Availability status (20 characters)
+- Additional attributes - Genre or Issue Number (variable length)
+
+## Troubleshooting
+
+### Common Issues
+
+<table>
+  <tr>
+    <th>Issue</th>
+    <th>Possible Cause</th>
+    <th>Solution</th>
+  </tr>
+  <tr>
+    <td>File not found errors</td>
+    <td>Invalid data file path</td>
+    <td>
+      - Check if specified directory exists<br>
+      - Ensure write permissions for the data directory<br>
+      - Try using a relative path
+    </td>
+  </tr>
+  <tr>
+    <td>Build errors</td>
+    <td>Missing or misconfigured dependencies</td>
+    <td>
+      - Verify Qt libraries are properly installed<br>
+      - Check that all files are correctly added to the project<br>
+      - Confirm code is copied without missing sections
+    </td>
+  </tr>
+  <tr>
+    <td>Runtime errors with Magazine parsing</td>
+    <td>Regular expression error</td>
+    <td>
+      Fix the regular expression in librarymanager.cpp:<br>
+      <code>QRegularExpression re("(\\d+");</code><br>
+      should be:<br>
+      <code>QRegularExpression re("(\\d+)");</code>
+    </td>
+  </tr>
+</table>
+
+## Extending the System
+
+### Potential Enhancements
+
+<div align="center">
+  <img src="/api/placeholder/500/250" alt="System Extension Ideas" />
+</div>
+
+To extend this system, consider implementing:
+
+- 📱 **GUI Interface**: Create a graphical interface using Qt widgets
+- 👤 **User Management**: Add user accounts and authentication
+- ⏰ **Due Dates & Fines**: Implement borrowing time limits and late fees
+- 📊 **Statistics & Reports**: Generate usage reports and analytics
+- 📲 **Mobile App**: Develop companion mobile applications
+- 🔒 **Security Features**: Add encryption and access control
+
+## Credits
+
 Developed as a C++ Qt project demonstrating object-oriented programming principles, including inheritance, polymorphism, and encapsulation.
 
-License
+<div align="center">
+  <hr>
+  <p>
+    <b>Library Management System</b><br>
+    A Qt C++ Implementation
+  </p>
+</div>
+
+## License
+
 This project is provided for educational purposes. Feel free to use and modify as needed.
 
+---
+
+<div align="center">
+  <p>
+    <a href="#library-management-system">Back to Top ⬆️</a>
+  </p>
+</div>

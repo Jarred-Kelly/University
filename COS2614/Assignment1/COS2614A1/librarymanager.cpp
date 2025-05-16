@@ -65,10 +65,12 @@ void LibraryManager::loadData()
             QString sGenre = sLine.mid(80).trimmed();
             oItem = std::make_shared<Book>(iId, sTitle, sAuthor, sGenre, sType);
         } else if (sType == "Magazine") {
+            // Extract issue number from text remaining
             QString sIssueNumber = sLine.mid(80).trimmed();
             int iIssueNumber = 0;
 
-            QRegularExpression re("(\\d+");
+            // Extract Numeric part using Regex
+            QRegularExpression re("(\\d+)");
             QRegularExpressionMatch oMatch = re.match(sIssueNumber);
 
             if (oMatch.hasMatch()) {

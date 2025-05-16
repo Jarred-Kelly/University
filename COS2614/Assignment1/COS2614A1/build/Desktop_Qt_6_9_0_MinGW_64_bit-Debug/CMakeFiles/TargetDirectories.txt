@@ -1,0 +1,9 @@
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/COS2614A1.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/COS2614A1_autogen_timestamp_deps.dir
+C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/COS2614A1_autogen.dir

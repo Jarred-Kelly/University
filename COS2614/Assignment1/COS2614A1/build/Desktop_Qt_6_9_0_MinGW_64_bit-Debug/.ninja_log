@@ -1,0 +1,78 @@
+# ninja log v6
+12	289	7670389279085030	COS2614A1_New_autogen/timestamp	4ac77f1f1b341d22
+1647	1845	7691161510383684	COS2614A1.exe	8025398ce92ff57a
+12	289	7670389279085030	COS2614A1_New_autogen/mocs_compilation.cpp	4ac77f1f1b341d22
+12	289	7670389279085030	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_New_autogen/timestamp	4ac77f1f1b341d22
+305	2471	7670389279979507	CMakeFiles/COS2614A1_New.dir/book.cpp.obj	383e176c170f249b
+12	289	7670389279085030	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_New_autogen/mocs_compilation.cpp	4ac77f1f1b341d22
+293	395	7670389279883538	CMakeFiles/COS2614A1_New.dir/COS2614A1_New_autogen/mocs_compilation.cpp.obj	528318d143dc21b1
+311	2441	7670389280049900	CMakeFiles/COS2614A1_New.dir/libraryitem.cpp.obj	cdbcb37a1482f94d
+317	2477	7670389280126018	CMakeFiles/COS2614A1_New.dir/magazine.cpp.obj	e4395c41d2e3bb75
+299	3035	7670389279950146	CMakeFiles/COS2614A1_New.dir/main.cpp.obj	f99b08328d8b6185
+323	3368	7670389280182140	CMakeFiles/COS2614A1_New.dir/librarymanager.cpp.obj	e60d811292980fde
+3368	3844	7670389310643383	COS2614A1_New.exe	55f8127b3c98d65
+43	155	7691161494342816	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+43	155	7691161494342816	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+140	1359	7691112808020068	CMakeFiles/COS2614A1.dir/book.cpp.obj	32e871aa70830185
+43	155	7691161494342816	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+43	155	7691161494342816	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+232	496	7690362993464700	CMakeFiles/COS2614A1.dir/COS2614A1_autogen/mocs_compilation.cpp.obj	1b9c41df9aeae5d
+156	1647	7691161495468405	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+144	1306	7691112195737821	CMakeFiles/COS2614A1.dir/libraryitem.cpp.obj	960f7357bf1a5ff3
+143	1345	7691112808051175	CMakeFiles/COS2614A1.dir/magazine.cpp.obj	762b20ca61e92a2d
+117	1992	7691132377261034	CMakeFiles/COS2614A1.dir/librarymanager.cpp.obj	975fdb22732d7038
+30	133	7691163678599294	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+30	133	7691163678599294	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+30	133	7691163678599294	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+30	133	7691163678599294	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+39	138	7691163749831782	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+39	138	7691163749831782	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+39	138	7691163749831782	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+39	138	7691163749831782	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+139	1633	7691163750835729	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+1633	1832	7691163765775762	COS2614A1.exe	8025398ce92ff57a
+6	104	7691165133742298	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	104	7691165133742298	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+6	104	7691165133742298	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	104	7691165133742298	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+38	143	7691165246426429	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+38	143	7691165246426429	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+38	143	7691165246426429	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+38	143	7691165246426429	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+144	1664	7691165247481643	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+1664	1863	7691165262687185	COS2614A1.exe	8025398ce92ff57a
+6	118	7691166094809755	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	118	7691166094809755	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+6	118	7691166094809755	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	118	7691166094809755	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+119	1818	7691166095937410	CMakeFiles/COS2614A1.dir/librarymanager.cpp.obj	975fdb22732d7038
+1818	2006	7691166112934966	COS2614A1.exe	8025398ce92ff57a
+6	111	7691168595060457	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	111	7691168595060457	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+6	111	7691168595060457	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	111	7691168595060457	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+112	1613	7691168596268030	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+115	1820	7691168596292479	CMakeFiles/COS2614A1.dir/librarymanager.cpp.obj	975fdb22732d7038
+1820	2014	7691168613343380	COS2614A1.exe	8025398ce92ff57a
+6	109	7691169329092895	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	109	7691169329092895	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+6	109	7691169329092895	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+6	109	7691169329092895	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+111	1641	7691169330221131	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+1641	1837	7691169345534211	COS2614A1.exe	8025398ce92ff57a
+5	110	7691170066012515	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+5	110	7691170066012515	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+5	110	7691170066012515	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+5	110	7691170066012515	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+38	146	7691170160286268	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+38	146	7691170160286268	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+38	146	7691170160286268	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+38	146	7691170160286268	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+148	1699	7691170161391466	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+1700	1900	7691170176912452	COS2614A1.exe	8025398ce92ff57a
+41	146	7691170792161969	COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+41	146	7691170792161969	COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+41	146	7691170792161969	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/timestamp	ffad5e565c6a2f6d
+41	146	7691170792161969	C:/University/OneDrive - University of South Africa/COS2614 - Programming Contemporary Concepts/Assignments/COS2614A1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/COS2614A1_autogen/mocs_compilation.cpp	ffad5e565c6a2f6d
+147	1638	7691170793252937	CMakeFiles/COS2614A1.dir/main.cpp.obj	ba7860c374e827ca
+1638	1830	7691170808164117	COS2614A1.exe	8025398ce92ff57a
